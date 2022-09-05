@@ -1,3 +1,6 @@
+html{
+    height: 100%;
+}
 body{
     background-color: #6366f1;
 }
@@ -33,4 +36,18 @@ h1{
     border: none;
     padding: 0.5rem;
     background-color: #84cc16;
+}
+footer a{
+    font-size: large;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+footer{
+ padding: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
