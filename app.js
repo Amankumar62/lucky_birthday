@@ -13,6 +13,10 @@ else{
 }
 
 function checkBithDateIsLucky(){
+    if(luckyNumber.value === ""){
+        outputBox.innerText = "Please input lucky number before checking"
+        return;
+    }
     const dob = dateOfBirth.value;
     const sum = calculateSum(dob);
     compareValues(sum,luckyNumber.value);
@@ -28,6 +32,4 @@ for(let i = 0; i < dob.length ;i++){
 return sum;
 }
 
-checkNumberButton.addEventListener('click', function getValues(){
-checkBithDateIsLucky();
-});
+checkNumberButton.addEventListener('click',checkBithDateIsLucky);
