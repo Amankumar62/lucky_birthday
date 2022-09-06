@@ -7,6 +7,18 @@ body{
 h1{
     text-align: center;
 }
+#policy{
+    font-size: larger;
+    color: aliceblue;
+    padding: 3rem;
+    background-color: 
+    #1e3a8a;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    border-radius: 10rem;
+}
+
 .container{
     margin: auto;
     width: 50%;
@@ -42,6 +54,10 @@ footer a{
     margin: 0.5rem;
     text-decoration: none;
     color: aliceblue;
+}
+footer #policy-link{
+    font-size: smaller;
+    margin: 2rem;
 }
 footer{
  padding: 1rem;
